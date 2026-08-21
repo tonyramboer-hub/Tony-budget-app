@@ -1,1 +1,29 @@
-{"name":"Tony Budget","short_name":"Tony Budget","start_url":"./index.html","display":"standalone","background_color":"#ffffff","theme_color":"#1F4E78","description":"Privé budget- en buffertracker"}
+{
+  "id": "./",
+  "name": "Tony Budget",
+  "short_name": "Tony Budget",
+  "description": "Privé budget- en buffertracker",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#1F4E78",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
